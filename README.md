@@ -8,4 +8,5 @@ Dans l'exemple mis à disposition, le traitement est effectué avec un modèle d
 Vous effectuerez dans un premier temps la REN avec spacy ainsi que le liage avec l'outil entitylinker qui fonctionne avec la base de données Wikidata. Cette première sortie sera stockée dans le dossier "SORTIEJSON_LINKING" (modifier la variable "output_dir" si souhait d'un autre nom de dossier).
 Dans un second temps, on effectue le calcul de similarité en récupérant les données crées précédemment dans "SORTIEJSON_LINKING" et on les stocke dans "Resultat_entity-linking".
 
+Les dossiers de sortie n'ont pas besoin d'être créés au préalable, le code prévoit de vérifier si le dossier existe et si ce n'est pas le cas, on le créé.
 Les imports nécessaires sont effectués au début du traitement (version 3.7.5 pour spacy et spacy-entity-linker).
