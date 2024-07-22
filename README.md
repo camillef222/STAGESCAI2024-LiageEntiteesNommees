@@ -1,7 +1,7 @@
 # STAGESCAI2024-LiageEntitesNommees
  Stage SCAI 2024 sur le liage d'entités nommées
 
-Dans le dossier "Entitylinking_spacy", vous trouverez un programmme détaillé sous le format .ipynb et également .py qui permet d'effectuer un liage avec l'outil entitylinker de Spacy, ainsi qu'un calcul de similarité entre l'entité traitée et l'entitée wikidata avec la/lesquelle(s) elle est liée. 
+Dans le dossier "Entitylinking_spacy", vous trouverez un programmme détaillé sous le format .ipynb et également .py qui permet d'effectuer un liage avec l'outil entitylinker de Spacy, ainsi qu'un calcul de similarité entre l'entité traitée et l'entité wikidata avec la/lesquelle(s) elle est liée. 
 
 Dans l'exemple mis à disposition, le traitement est effectué avec un modèle de langue en français, mais il est tout à fait possible de le fair avec une autre langue (par exemple l'anglais). Le code reste le même peu importe la langue utilisée, et les lignes où des changements doivent être effectués sont commentées (notamment lors de l'import du modèle et de ses appels). 
 
